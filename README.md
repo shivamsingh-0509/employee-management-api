@@ -25,7 +25,7 @@ A modular, scalable backend RESTful API built with **Python**, **FastAPI**, and 
 
 ---
 
-## Project Structure
+ Project Structure
 
 ```text
 ├── database.py       # Database engine, session maker, and Base setup
@@ -33,7 +33,7 @@ A modular, scalable backend RESTful API built with **Python**, **FastAPI**, and 
 ├── schemas.py        # Pydantic schemas for request and response validation
 ├── main.py           # Application entry point & RESTful route controllers
 ├── requirements.txt  # Project dependencies
-└── README.md
+└── README.md##
 ---
 
 ## API Endpoints Overview
@@ -46,9 +46,6 @@ A modular, scalable backend RESTful API built with **Python**, **FastAPI**, and 
 | **GET** | `/employees/` | Retrieve paginated employees with department details | `200 OK` |
 | **GET** | `/employees/{id}` | Retrieve specific employee by ID | `200 OK` |
 | **DELETE** | `/employees/{id}` | Remove employee record | `204 No Content` |
-
----
-
 ## Getting Started Locally
 
 ### 1. Clone the repository
